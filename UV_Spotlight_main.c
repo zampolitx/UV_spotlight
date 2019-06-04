@@ -7,6 +7,7 @@
 
 
 void main(void) {
+<<<<<<< HEAD
     TRISA = 0b00000;
     while(1)
     {   
@@ -16,5 +17,8 @@ void main(void) {
         __delay_ms(1000);
         
     }
+=======
+  print ("9");
+>>>>>>> 101001f3dbf588221772cb2050d475e4b946acea
     return;
 }
