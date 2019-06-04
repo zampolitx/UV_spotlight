@@ -9,5 +9,6 @@
 #include <xc.h>
 
 void main(void) {
+  print ("9");
     return;
 }
