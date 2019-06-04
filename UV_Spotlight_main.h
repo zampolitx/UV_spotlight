@@ -3,7 +3,9 @@
 #include <xc.h>
 
 #define _XTAL_FREQ 20000000
-#define relay RA2
+#define relay RA2               // Выход исполнительного реле, включающего светодиоды
+#define buttom1 RB4             // Левая кнока Start
+#define buttom2 RB5             // Правая кнопка Stop
 
 // CONFIG
 #pragma config FOSC = HS        // Oscillator Selection bits (HS oscillator)
