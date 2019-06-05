@@ -6,6 +6,12 @@
 #define relay RA2               // Выход исполнительного реле, включающего светодиоды
 #define buttom1 RB4             // Левая кнока Start
 #define buttom2 RB5             // Правая кнопка Stop
+#define RS RC0
+#define EN RC1
+#define D4 RC4
+#define D5 RC5
+#define D6 RC6
+#define D7 RC7
 
 // CONFIG
 #pragma config FOSC = HS        // Oscillator Selection bits (HS oscillator)
